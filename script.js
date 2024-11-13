@@ -22,8 +22,11 @@ function randomizePopupPosition(popupId) {
 }
 
 // Set intervals to move pop-ups every few seconds
-setInterval(() => randomizePopupPosition('popup1'), 2000); // Moves popup1 every 3 seconds
-setInterval(() => randomizePopupPosition('popup2'), 3000); // Moves popup2 every 5 seconds
-
-
-
+setInterval(() => randomizePopupPosition('popup1'), 5000); // Moves popup1 every 5 seconds
+setInterval(() => randomizePopupPosition('popup2'), 5000); 
+setInterval(() => randomizePopupPosition('popup3'), 6000);
+setInterval(() => randomizePopupPosition('popup4'), 8000);
+setInterval(() => randomizePopupPosition('popup5'), 5000);
+setInterval(() => randomizePopupPosition('popup6'), 7000);
+setInterval(() => randomizePopupPosition('popup7'), 7000);
+setInterval(() => randomizePopupPosition('popup8'), 6000);
